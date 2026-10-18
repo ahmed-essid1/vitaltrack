@@ -1,0 +1,31 @@
+# ---- Secrets: never commit Firebase config ----
+**/google-services.json
+**/GoogleService-Info.plist
+**/firebase_options.dart
+**/firebase.json
+**/local.properties
+**/key.properties
+**/*.keystore
+**/*.jks
+.env
+
+# ---- Trained models (too large for GitHub, regenerate from notebooks) ----
+*.pickle
+*.pkl
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# ---- Flutter / IDE ----
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+*.iml
+.vscode/
+*.code-workspace
