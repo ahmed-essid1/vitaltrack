@@ -1,1 +1,5 @@
 *.ipynb linguist-detectable=false
+mobile_app/windows/** linguist-generated
+mobile_app/linux/** linguist-generated
+mobile_app/macos/** linguist-generated
+mobile_app/ios/** linguist-generated
